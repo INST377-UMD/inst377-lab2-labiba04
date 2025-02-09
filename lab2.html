@@ -1,0 +1,58 @@
+<!-- Page 1-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Contact Form </title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, serif;
+            }
+        .form-container {
+            margin: 50px;
+            font-size: 18px;
+            }
+        label {
+            font-size: 20px;
+            }
+        .submit-btn {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 11px;
+            }
+        .submit-btn:hover {
+            background-color: darkred;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1> Contact Me </h1>
+        <form action="thanks.html" method="get">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit" class="submit-btn">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
+
